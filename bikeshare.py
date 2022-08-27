@@ -62,7 +62,7 @@ def get_filters():
                 else:
                     print('Please enter an integer or "all" :\n')
                     continue
-
+            # TO DO: get user input for both(day and week)
             while filter_by == 'both':
                 month = input('Which month? all, January, February, March, April, May or June?\n')
                 month = month.replace(' ', '')
