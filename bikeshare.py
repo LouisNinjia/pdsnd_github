@@ -234,6 +234,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
+        # """Displays individual trip data"""
         df = pd.read_csv(CITY_DATA[city])
         for i in range(df.shape[0]+1):
             if i % 5 == 0:
