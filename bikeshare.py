@@ -223,6 +223,21 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-' * 40)
 
+def individual_trip_data():
+    # """Displays individual trip data"""
+    df = pd.read_csv(CITY_DATA[city])
+    for i in range(df.shape[0] + 1):
+        if i % 5 == 0:
+            view = input('Would you like to view individual trip data? Type "yes" or "no".\n')
+            view.replace(' ', '')
+            if view.lower() != 'yes':
+                break
+            if view.lower() == 'yes':
+                df5 = df.iloc[i]
+                print(df5, '\n')
+        else:
+            df5 = df.iloc[i]
+            print(df5, '\n')
 
 def main():
     while True:
@@ -234,21 +249,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        # """Displays individual trip data"""
-        df = pd.read_csv(CITY_DATA[city])
-        for i in range(df.shape[0]+1):
-            if i % 5 == 0:
-                view = input('Would you like to view individual trip data? Type "yes" or "no".\n')
-                view.replace(' ','')
-                if view.lower() != 'yes':
-                    break
-                if view.lower() == 'yes':
-                    df5 = df.iloc[i]
-                    print(df5,'\n')
-            else:
-                df5 = df.iloc[i]
-                print(df5,'\n')
-
+        individual_trip_data()
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         restart.replace(' ','')
