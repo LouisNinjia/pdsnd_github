@@ -15,6 +15,16 @@ Include the files used
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+<<<<<<< HEAD
 ### Add files
 
 Add py files and data files
+
+### Add line comments
+
+Add line comments about time filter.
+
+### Add line comments
+
+Add line comments about individual cycling data.
+>>>>>>> refactoring
