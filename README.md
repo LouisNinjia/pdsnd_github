@@ -1,30 +1,9 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
-### Date created
-Include the date you created this project and README file.
+### Project description
 
-### Project Title
-Replace the Project Title
+The project uses Python to explore data related to bike-sharing systems in three major cities in the United States-Chicago, New York City and Washington-and to answer interesting questions about the data by calculating descriptive statistics. And create an interactive experience that presents these statistics in the terminal.
 
-### Description
-Describe what your project is about and what it does
+### GitHub link
 
-### Files used
-Include the files used
-
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
-<<<<<<< HEAD
-### Add files
-
-Add py files and data files
-
-### Add line comments
-
-Add line comments about time filter.
-
-### Add line comments
-
-Add line comments about individual cycling data.
->>>>>>> refactoring
+https://github.com/LouisNinjia/pdsnd_github
